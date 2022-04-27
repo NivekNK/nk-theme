@@ -1,0 +1,21 @@
+{
+    "name": "nk-theme",
+    "displayName": "NK Theme",
+    "description": "Theme created for my preferences based in famous Monokai Theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NK Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NK Theme-color-theme.json"
+            }
+        ]
+    }
+}
