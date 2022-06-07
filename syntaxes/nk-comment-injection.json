@@ -1,0 +1,22 @@
+{
+    "scopeName": "nk-comment.injection",
+    "injectionSelector": "L:comment.line.double-slash",
+    "patterns": [
+      {
+        "include": "#todo-keyword"
+      },
+      {
+        "include": "#hack-keyword"
+      }
+    ],
+    "repository": {
+      "todo-keyword": {
+        "match": "TODO:",
+        "name": "nk.keyword.todo"
+      },
+      "hack-keyword": {
+        "match": "HACK:",
+        "name": "nk.keyword.hack"
+      }
+    }
+  }

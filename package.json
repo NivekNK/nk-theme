@@ -16,6 +16,15 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/NK Theme-color-theme.json"
             }
+        ],
+        "grammars": [
+            {
+                "path": "./syntaxes/nk-comment-injection.json",
+                "scopeName": "nk-comment.injection",
+                "injectTo": [
+                    "source.cpp"
+                ]
+            }
         ]
     }
 }
