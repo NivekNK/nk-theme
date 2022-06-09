@@ -3,6 +3,9 @@
     "displayName": "NK Theme",
     "description": "Theme created for my preferences based in famous Monokai Theme.",
     "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
     "publisher": "NivekNK",
     "repository": {
         "type": "git",
