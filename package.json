@@ -2,10 +2,18 @@
     "name": "nk-theme",
     "displayName": "NK Theme",
     "description": "Theme created for my preferences based in famous Monokai Theme.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.66.0"
+    "version": "1.0.0",
+    "publisher": "NivekNK",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NivekNK/nk-theme"
     },
+    "keywords": [
+        "monokai",
+        "dark theme",
+        "niveknk",
+        "nk"
+    ],
     "categories": [
         "Themes"
     ],
